@@ -1,0 +1,13 @@
+Source: livox-sdk
+Section: misc
+Priority: optional
+Maintainer: Greenzie Developers <developers@greenzie.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-melodic-catkin
+Homepage: https://github.com/Livox-SDK/Livox-SDK
+Standards-Version: 3.9.2
+
+Package: livox-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Livox SDK is the software development kit designed for all Livox products.
+ It is developed based on C/C++ following Livox SDK Communication Protocol, and provides easy-to-use C style API. With Livox SDK, users can quickly connect to Livox products and receive point cloud data. Livox SDK consists of Livox SDK communication protocol, Livox SDK core, Livox SDK API, Linux sample, and ROS demo.

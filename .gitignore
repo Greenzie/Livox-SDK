@@ -11,4 +11,15 @@ build/sample
 #whitelist
 !build/notes.txt
 
-
+#debian
+.debhelper
+/debian/files
+*.deb
+*.dsc
+*.build
+*.buildinfo
+*.changes
+*.log
+*.substvars
+/debian/livox-sdk
+obj-x86_64-linux-gnu
