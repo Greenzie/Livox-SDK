@@ -1,3 +1,13 @@
+This fork contains a debian folder based on the rosbloom tool (`bloom-generate debian`) to generate a debian.
+
+To build the debian, run:
+
+```
+fakeroot debian/rules binary
+```
+
+================
+
 [中文版本使用说明](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)
 
 # 1 Introduction
