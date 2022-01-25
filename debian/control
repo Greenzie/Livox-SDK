@@ -2,7 +2,7 @@ Source: livox-sdk
 Section: misc
 Priority: optional
 Maintainer: Greenzie Developers <developers@greenzie.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, ros-melodic-catkin
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-noetic-catkin
 Homepage: https://github.com/Livox-SDK/Livox-SDK
 Standards-Version: 3.9.2
 
